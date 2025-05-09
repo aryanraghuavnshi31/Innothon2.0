@@ -1,0 +1,2 @@
+EMAIL_USER=raghuvanshiaryan1331@gmail.com
+EMAIL_PASS=Aryan1331@#12
