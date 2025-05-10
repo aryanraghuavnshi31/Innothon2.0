@@ -2,7 +2,7 @@
 
 **Real-Time AI-Based Email Threat Detection System**
 
-Digi रक्षक (Rakshak) is a privacy-focused desktop application that automatically scans incoming emails for phishing, spam, and malicious content—without requiring any manual input. Running silently in the background, it provides real-time protection and explains threats through a clean, intuitive dashboard.
+Digi रक्षक (Rakshak) is a privacy-focused desktop application that automatically scans incoming emails for phishing, spam, and malicious content—without requiring any manual input. Running silently in the background, it provides real-time protection and explains threats through a clean, intuitive dashboard..
 
 ---
 
