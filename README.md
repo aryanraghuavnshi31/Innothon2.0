@@ -74,8 +74,9 @@ Digi रक्षक (Rakshak) is a privacy-focused desktop application that aut
 ├── README.md
 └── setup.py
 ''')
-
-🚀 Installation & Setup
+---
+---
+## **🚀 Installation & Setup**
 
 
 1️⃣ Clone the Repository
@@ -115,12 +116,13 @@ Frontend runs by default on:
 
 It provides real-time alerts and a visual summary from backend modules.
 
+---
 
-🏗️ Future Improvements
+## 🏗️ Future Improvements
 
 Here are planned enhancements to expand Digi रक्षक's functionality and security coverage:
 
-    🧠 Image-Based Phishing Detection
+🧠 Image-Based Phishing Detection
 Integrate OCR (Optical Character Recognition) to detect threats hidden in embedded images (e.g., QR code scams, screenshot phishing).
 
 🔗 Cross-Platform Messaging Analysis
@@ -134,7 +136,7 @@ Enable organizations to integrate Digi रक्षक with their internal email
 
 🔄 Auto-Model Updates
 Periodic offline model retraining using anonymized user-approved feedback to adapt to evolving phishing techniques.
-
+---
 👨‍💻 Author
 
 Developed by
