@@ -1,0 +1,76 @@
+.services-container {
+  background: url('https://www.etftrends.com/wp-content/uploads/2017/05/Increased-Cyber-Attacks-Could-Be-a-Boon-for-CyberSec-ETFs.jpg') 
+              no-repeat center center / cover;
+  padding: 4rem 2rem;
+  color: #ffffffff;
+  text-align: center;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.7);
+}
+
+.services-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.service-card {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  opacity: 0.95;
+  line-height: 1.5;
+}
+
+/* Chart styling container */
+.chart-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-container h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}

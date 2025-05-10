@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-container {
+    padding: 2rem;
+    max-width: 900px;
+margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .about-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -3rem;
+    padding: 16px;
+    color: white;
+  }
+  
+  .history-card {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4f46e5;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .history-card:hover {
+    transform: translateY(-3px);
+    background-color: #f1f5ff;
+  }
+  
+  .history-card h2 {
+    font-size: 1.2rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .history-card p {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  
