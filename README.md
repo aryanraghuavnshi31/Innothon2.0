@@ -37,43 +37,115 @@ Digi रक्षक (Rakshak) is a privacy-focused desktop application that aut
 
 ## 🗂️ Project Structure
 (digi-rakshak/
-
 ├── backend/
 
+│   ├── app/
 
 
+│   │   ├── assets/
 
-│   ├── email_client/
+│   │   ├── routes/
 
-│   └── threat_detection/
+│   │   ├── services/
 
 
+│   │   ├── utils/
+
+
+│   │   └── __init__.py
+
+
+│   ├── env_name/
+
+│   │   ├── Include/
+
+
+│   │   ├── Lib/
+
+│   │   ├── Scripts/
+
+
+│   │   └── pyvenv.cfg
+
+
+│   ├── app.py
+
+│   ├── run.py
+
+│   └── requirements.txt
+│
 ├── ml_models/
 
-│   
- ├── training/
-│  
- └── models/
+│   ├── training/
 
-	
-│   
-   └── notebooks			
-			├── dashboard/
+│   ├── models/
 
-│   └── src/
+│   └── notebooks/
+│
+├── dashboard/  # React + Vite frontend
 
-├── assets/
+│   ├── backend/  # Optional bridge or API routing?
 
-├── security/
+│   ├── node_modules/
 
-├── utils/
+│   ├── public/
 
-├── docs/
+│   ├── src/
 
-├── .env.example
-├── README.md
-└── setup.py
+│   │   ├── assets/
+
+│   │   ├── components/
+
+│   │   │   ├── Navbar.css
+
+│   │   │   └── Navbar.jsx
+
+│   │   ├── pages/
+
+│   │   │   ├── About.jsx
+
+│   │   │   ├── Home.jsx
+
+│   │   │   ├── Services.jsx
+
+│   │   │   └── Test.jsx
+
+│   │   ├── App.jsx
+
+│   │   ├── main.jsx
+
+│   │   ├── App.css
+
+│   │   └── index.css
+
+│   ├── index.html
+
+│   ├── vite.config.js
+
+│   ├── package.json
+
+│   ├── package-lock.json
+
+│   └── README.md
+
+│
+├── extension/  # Browser extension
+
+│   ├── .dist/
+
+│   ├── digi_rakshas.png
+
+│   ├── manifest.json
+
+│   ├── popup.html
+
+│   ├── popup.js
+
+│   └── popup.css
+│
+└── docs/  # Documentation, if any
 ''')
+This combines your Python backend, ML modules, React frontend, and browser extension into a clear monorepo-style structure.
 ---
 ---
 ## **🚀 Installation & Setup**
@@ -114,7 +186,46 @@ Frontend runs by default on:
 
 ![Screenshot 2025-05-10 235620](https://github.com/user-attachments/assets/0162e421-860a-49c9-9f1f-53d6e8b18aba)
 
+
+
 It provides real-time alerts and a visual summary from backend modules.
+
+![WhatsApp Image 2025-05-11 at 07 39 29](https://github.com/user-attachments/assets/3c8462f1-42d2-4bea-a670-86ab1fa4d19c)
+
+By default:
+
+    backend_module01 runs on http://172.16.40.174:5000
+    backend_module02 runs on http://127.0.0.1:5000
+
+    3️⃣ Frontend Setup
+Install dependencies and start the development server
+
+cd ../frontend
+npm install
+npm run dev
+
+---
+Screenshorts
+![WhatsApp Image 2025-05-11 at 07 39 51](https://github.com/user-attachments/assets/ca685bd1-d641-41d1-86d5-7436299b6f4f)
+
+
+![WhatsApp Image 2025-05-11 at 07 39 51(1)](https://github.com/user-attachments/assets/aeda26d3-ca9f-4a1b-bfa1-022d8383fac2)
+
+
+![WhatsApp Image 2025-05-11 at 07 39 51(2)](https://github.com/user-attachments/assets/4a929d07-a6b4-4f53-b50c-aa326e8f62a8)
+
+
+![WhatsApp Image 2025-05-11 at 07 39 52](https://github.com/user-attachments/assets/93314e84-5f64-430d-b18f-620865711a32)
+
+
+![WhatsApp Image 2025-05-11 at 07 39 52(1)](https://github.com/user-attachments/assets/9b6ce4e6-4e08-42ee-8b84-ba212aeede9d)
+
+
+![WhatsApp Image 2025-05-11 at 07 44 23](https://github.com/user-attachments/assets/5e203a11-d0a0-486d-bb66-d693224478ef)
+
+
+
+![WhatsApp Image 2025-05-11 at 07 46 59](https://github.com/user-attachments/assets/1d748878-9024-4736-9963-0630e20bae9d)
 
 ---
 
