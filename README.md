@@ -30,8 +30,8 @@ Digi रक्षक (Rakshak) is a privacy-focused desktop application that aut
 | ML/NLP           | Scikit-learn, BERT, Transformers, Pandas, NLTK         |
 | Backend          | IMAP/SMTP, Email Parser, Python scripts                |
 | Frontend         | Electron.js, React.js                                  |
-| Security         | VirusTotal API, Google Safe Browsing API               |
-| UI/UX            | Figma, Lottie, Three.js                                |
+| Security         | VirusTotal API.              |
+| UI/UX            | React.js                              |
 
 ---
 
