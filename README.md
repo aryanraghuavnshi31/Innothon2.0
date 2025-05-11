@@ -227,6 +227,10 @@ Screenshorts
 
 ![WhatsApp Image 2025-05-11 at 07 46 59](https://github.com/user-attachments/assets/1d748878-9024-4736-9963-0630e20bae9d)
 
+
+![WhatsApp Image 2025-05-11 at 08 55 42](https://github.com/user-attachments/assets/bcffb300-e6f4-4b6e-9178-aff47d2d7c60)
+
+
 ---
 
 ## 🏗️ Future Improvements
