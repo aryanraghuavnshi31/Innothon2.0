@@ -233,7 +233,7 @@ Screenshorts
 
 ---
 
-## 🏗️ Future Improvements
+## 🏗️ Future Improvements.
 
 Here are planned enhancements to expand Digi रक्षक's functionality and security coverage:
 
