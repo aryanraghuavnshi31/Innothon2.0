@@ -255,8 +255,7 @@ Periodic offline model retraining using anonymized user-approved feedback to ada
 👨‍💻 Author
 
 Developed by
-
-    1.Aryan Raghuvanshi
+ 1.Aryan Raghuvanshi
    
 
 
